@@ -1,0 +1,9 @@
+load data local infile '/home/wan/bigdata/user_profile.csv'
+  into table user_profile
+  fields terminated by ',' optionally enclosed by '"' escaped by '"'
+  lines terminated by '\n';
+
+load data local infile '/home/wan/bigdata/ad_feature.csv'
+  into table ad_feature
+  fields terminated by ',' optionally enclosed by '"' escaped by '"'
+  lines terminated by '\n';
